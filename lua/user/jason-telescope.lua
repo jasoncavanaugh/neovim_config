@@ -5,7 +5,7 @@ function M.edit_nvim()
     {
       shorten_path = true,
       cwd = "~/AppData/Local/nvim",
-      prompt = "Neovim Config Files",
+      prompt = "Neovim Config Files", -- Doesn't work
       height = 10,
       file_ignore_patterns = { ".git" },
       layout_strategy = "horizontal",

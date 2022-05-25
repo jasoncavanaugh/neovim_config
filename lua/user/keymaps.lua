@@ -28,10 +28,6 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
--- Telescope remaps
-
-
--- keymap("n", "<leader>fsu", "<cmd>lua require('telescope.builtin').find_files({cwd = 'C:/Users/13018/Documents', file_ignore_patterns = { '*printer-stuff*' } })<cr>", opts)
 
 
 -- nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr> live_grep doesn't work on windows
