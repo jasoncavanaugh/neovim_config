@@ -7,7 +7,9 @@ function M.edit_nvim()
       cwd = "~/AppData/Local/nvim",
       prompt = "Neovim Config Files",
       height = 10,
-
+      file_ignore_patterns = {
+        ".git"
+      },
       layout_strategy = "horizontal",
       layout_options = {
         preview_width = 0.75,
