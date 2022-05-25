@@ -43,6 +43,7 @@ keymap("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr
 keymap("n", "<leader>blame", "<cmd>Gitsigns toggle_current_line_blame<CR>", opts)
 keymap("n", "<leader>ps", "<cmd>lua require('user.jason-telescope').project_search()<cr>", opts)
 keymap("n", "<leader>vp", ":Lex 20<cr>", opts)
+keymap("n", "<leader>en", "<cmd>EditNvim<cr>", opts)
 vim.g.netrw_banner = 0
 
 -- Resize with arrows. I don't care about these
