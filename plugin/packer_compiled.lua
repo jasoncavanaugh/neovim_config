@@ -74,25 +74,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  ["FixCursorHold.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\FixCursorHold.nvim",
-    url = "https://github.com/antoinemadec/FixCursorHold.nvim"
-  },
   LuaSnip = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
-  },
-  ["alpha-nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
-    url = "https://github.com/goolord/alpha-nvim"
-  },
-  ["bufferline.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -134,21 +119,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["impatient.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
-    url = "https://github.com/lewis6991/impatient.nvim"
-  },
-  ["indent-blankline.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
-  },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
   ["nlsp-settings.nvim"] = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nlsp-settings.nvim",
@@ -158,11 +128,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
-  },
-  ["nvim-autopairs"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
-    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -179,26 +144,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-ts-context-commentstring"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-ts-context-commentstring",
-    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -214,35 +159,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
-  ["project.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\project.nvim",
-    url = "https://github.com/ahmedkhalf/project.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["toggleterm.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["vim-bbye"] = {
+  ["vim-jsx-pretty"] = {
     loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-bbye",
-    url = "https://github.com/moll/vim-bbye"
-  },
-  ["which-key.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\which-key.nvim",
-    url = "https://github.com/folke/which-key.nvim"
+    path = "C:\\Users\\13018\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-jsx-pretty",
+    url = "https://github.com/maxmellon/vim-jsx-pretty"
   }
 }
 

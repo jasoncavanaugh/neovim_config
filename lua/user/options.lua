@@ -29,7 +29,7 @@ local options = {
   numberwidth = 4,                         -- set number column width to 2 {default 4}
   wrap = false,                            -- display lines as one long line
   autochdir = true,
-  synmaxcol = 1048                         -- not sure if this one will be that necessary
+  synmaxcol = 1048,                         -- not sure if this one will be that necessary
 }
 vim.opt.shortmess:append "c" -- Not too sure what this does
 
@@ -38,5 +38,11 @@ for k, v in pairs(options) do
 end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
+vim.cmd "set background=light"
+-- vim.cmd "let g:neosolarized_contrast = ''"
+-- let g:neosolarized_contrast = "normal"
 vim.cmd [[set iskeyword+=-]] -- Makes it so that you can delete "jason-cavanaugh" in one delete
+
+-- My commands
 vim.cmd "command EditNvim lua require('user.jason-telescope').edit_nvim()<cr>"
+vim.cmd "command CheatSheets lua require('user.jason-telescope').search_cheat_sheets()<cr>"

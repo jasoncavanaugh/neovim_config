@@ -28,8 +28,6 @@ noremap <C-k> <C-u>
 noremap <C-j> <C-d>
 
 
-" this next line is needed to enable your custom colors:
-syntax enable
 
 " All the plugins are stored in C:\Users\13018\.vim\plugged
 call plug#begin('~/.vim/plugged')

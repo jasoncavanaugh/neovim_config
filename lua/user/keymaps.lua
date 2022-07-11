@@ -11,7 +11,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Making tokyonight darker
-vim.g.tokyonight_style = "night"
+-- vim.g.tokyonight_style = "night"
 
 -- Modes
 --   normal_mode = "n",
@@ -29,7 +29,6 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 
-
 -- nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr> live_grep doesn't work on windows
 -- nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 -- nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
@@ -40,7 +39,9 @@ keymap("n", "<leader>blame", "<cmd>Gitsigns toggle_current_line_blame<CR>", opts
 keymap("n", "<leader>ps", "<cmd>lua require('user.jason-telescope').project_search()<cr>", opts)
 keymap("n", "<leader>vp", ":Lex 20<cr>", opts)
 keymap("n", "<leader>en", "<cmd>EditNvim<cr>", opts)
+
 vim.g.netrw_banner = 0
+vim.g.netrw_liststyle = 3
 
 -- Resize with arrows. I don't care about these
 -- keymap("n", "<C-Up>", ":resize +2<CR>", opts)
@@ -75,7 +76,7 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Terminal --
 -- Better terminal navigation. 
--- I don't think these will work for me since I'm on windows
+-- I don't think these will work for me since I'm on Windows
 -- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 -- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)

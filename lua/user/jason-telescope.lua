@@ -32,5 +32,21 @@ function M.project_search()
   )
 end
 
+function M.search_cheat_sheets() 
+  require("telescope.builtin").find_files(
+    {
+      shorten_path = true,
+      --search_dirs = {"~/coding-stuff/H4I/y-knot/src/"},
+      cwd = "C:/Users/13018/coding-stuff/cheat-sheets",
+      prompt = "y-knot",
+      height = 10,
+      layout_strategy = "horizontal",
+      layout_options = {
+        preview_width = 0.75,
+      }
+    }
+  )
+end
+
 return M
 
